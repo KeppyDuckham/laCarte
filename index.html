@@ -6,281 +6,287 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>La Carte | Home</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
-    <nav class="navbar navbar-expand-lg bg-warning  sticky-sm-top">
-        <div class="container">
-            <a class="navbar-brand" href="./index.html">
-                <img src="img/Group (1).png" alt="company logo" class="fs-1 text-white"> <span
-                    class="text-white text-uppercase">La Carte</span>
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse d" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
-                    <li class="nav-item">
-                        <a class="nav-link active text-white text-uppercase" aria-current="page"
-                            href="./index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white text-uppercase" href="./about.html">About Us</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white text-uppercase" href="./contact.html">Contact us</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <!-- <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown
-                </a> -->
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                    </li>
-                </ul>
+   <header>
+        <nav class="navbar navbar-expand-lg navbar-expand-md bg-warning sticky-sm-top">
+            <div class="container">
+                <a class="navbar-brand" href="./index.html">
+                    <img src="img/Group (1).png" alt="company logo" class="fs-1 text-white"> <span
+                        class="text-white text-uppercasev fw-bold fs-3">La Carte</span>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse navbar-expand-lg navbar-expand-md" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item mx-lg-4 mx-md-2 fw-semibold">
+                            <a class="nav-link text-white text-uppercase" aria-current="page" href="./index.html">Home</a>
+                        </li>
+                        <li class="nav-item mx-lg-4 mx-md-2 fw-semibold">
+                            <a class="nav-link text-white text-uppercase" href="./visit.html">Visit Us</a>
+                        </li>
+                        <li class="nav-item mx-lg-4 mx-md-2 fw-semibold">
+                            <a class="nav-link text-white text-uppercase" href="./about.html">About Us</a>
+                        </li>
+                        <li class="nav-item  mx-lg-4 mx-md-2 fw-semibold">
+                            <a class="nav-link text-white text-uppercase" href="./contact.html">Contact us</a>
+                        </li>
+                        <li class="ms-4">
+                            <img class="cart img-fluid" src="img/bxs_cart.png" alt="">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+   </header>
+    <main>
+        <div id="hero-section">
+            <div class="container py-5 text-white text-center align-middle text-lg-start text-md-start">
+                <h1>Nutritious. Classy.. Affordable...</h1>
+                <p>Let us satisfy you with our world class meals made by renowed chefs.</p>
+                <form class="d-flex" role="search">
+                    <input class="form-control rounded-start" type="search" placeholder="Search meals..." aria-label="Search">
+                    <button class="btn btn-warning rounded-end rounded-2 text-white" type="submit"><img class="img-fluid" src="img/Vector (4).png" alt=""></button>
+                </form>
             </div>
         </div>
-    </nav>
-
-    <div id="hero-section">
-
-        <div class="container hero-splash py-5 text-white">
-            <h1>Nutritious. Classy.. Affordable...</h1>
-            <p>Let us satisfy you with our world class meals made by renowed chefs.</p>
-        </div>
-    </div>
-
-    <div id="menu-section" class="pt-5">
-        <div class="container">
-            <h2 class="text-center text-success">Our Menu</h2>
-            <div class="menu py-2">
-                <h3 class="text-center text-muted">Breakfast</h3>
-                <div class="row">
-                    <div class="col-lg-4 col-md-4">
-                        <div class="card p-2">
-                            <img src="img/Rectangle 15 (1).png" class="rounded-top">
-                            <div>
-                                <h5>Toasted Bread and Eggs</h5>
-                                <p>Today's special</p>
-                                <h5>N1,500</h5>
+        <div id="menu-section" class="pt-4">
+            <div class="container">
+                <h2 class="text-center text-success">Our Menu</h2>
+                <div class="menu my-4">
+                    <h3 class="text-center text-muted">Breakfast</h3>
+                    <div class="row">
+                        <div class="col-lg-4 col-md-4">
+                            <div class="card p-2 my-lg-0 my-md-0 my-1">
+                                <img src="img/Rectangle 15 (1).png" class="rounded-top">
+                                <div>
+                                    <h5>Toasted Bread and Eggs</h5>
+                                    <p>Today's special</p>
+                                    <h5>N1,500</h5>
+                                    <button type="button" class="btn btn-success btn-sm mt-2">Add to cart</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4">
+                            <div class="card p-2 my-lg-0 my-md-0 my-1">
+                                <img src="img/Rectangle 18.png" class="rounded-top">
+                                <div>
+                                    <h5>Baked Bread and Eggs</h5>
+                                    <p>Today's special</p>
+                                    <h5>N1,500</h5>
+                                    <button type="button" class="btn btn-success btn-sm mt-2">Add to cart</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 my-lg-0 my-md-0 my-1">
+                            <div class="card p-2">
+                                <img src="img/Rectangle 17.png" class="rounded-top">
+                                <div>
+                                    <h5>Bread Rolls and Coffee</h5>
+                                    <p>Today's special</p>
+                                    <h5>N1,500</h5>
+                                    <button type="button" class="btn btn-success btn-sm mt-2">Add to cart</button>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-4">
-                        <div class="card p-2">
-                            <img src="img/Rectangle 18.png" class="rounded-top">
-                            <div>
-                                <h5>Baked Bread and Eggs</h5>
-                                <p>Today's special</p>
-                                <h5>N1,500</h5>
+                </div> 
+                <div class="menu py-2">
+                    <h3 class="text-center text-muted">Pasta</h3>
+                    <div class="row">
+                        <div class="col-lg-4 col-md-4 my-lg-0 my-md-0 my-1">
+                            <div class="card p-2">
+                                <img src="img/Rectangle 9.png" class="rounded-top">
+                                <div>
+                                    <h5> Sweet Penne</h5>
+                                    <p>Today's special</p>
+                                    <h5>N2,500</h5>
+                                    <button type="button" class="btn btn-success btn-sm mt-2">Add to cart</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 my-lg-0 my-md-0 my-1">
+                            <div class="card p-2">
+                                <img src="img/Rectangle 10.png" class="rounded-top">
+                                <div>
+                                    <h5>Slim Pasta and Curry</h5>
+                                    <p>Today's special</p>
+                                    <h5>N2,500</h5>
+                                    <button type="button" class="btn btn-success btn-sm mt-2">Add to cart</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 my-lg-0 my-md-0 my-1">
+                            <div class="card p-2">
+                                <img src="img/Rectangle 11.png" class="rounded-top">
+                                <div>
+                                    <h5>Jollof Spaghetti</h5>
+                                    <p>Today's special</p>
+                                    <h5>N2,500</h5>
+                                    <button type="button" class="btn btn-success btn-sm mt-2">Add to cart</button>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-4">
-                        <div class="card p-2">
-                            <img src="img/Rectangle 17.png" class="rounded-top">
-                            <div>
-                                <h5>Bread Rolls and Coffee</h5>
-                                <p>Today's special</p>
-                                <h5>N1,500</h5>
+                </div>   
+                <div class="menu py-2">
+                    <h3 class="text-center text-muted">Nigerian</h3>
+                    <div class="row">
+                        <div class="col-lg-4 col-md-4 my-lg-0 my-md-0 my-1">
+                            <div class="card p-2">
+                                <img src="img/Rectangle 7.png" class="rounded-top">
+                                <div>
+                                    <h5>Green Soup and Swallow</h5>
+                                    <p>Today's special</p>
+                                    <h5>N3000</h5>
+                                    <button type="button" class="btn btn-success btn-sm mt-2">Add to cart</button>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="menu py-2">
-                <h3 class="text-center text-muted">Pasta</h3>
-                <div class="row">
-                    <div class="col-lg-4 col-md-4">
-                        <div class="card p-2">
-                            <img src="img/Rectangle 9.png" class="rounded-top">
-                            <div>
-                                <h5> Sweet Penne</h5>
-                                <p>Today's special</p>
-                                <h5>N2,500</h5>
+                        <div class="col-lg-4 col-md-4 my-lg-0 my-md-0 my-1">
+                            <div class="card p-2">
+                                <img src="img/Rectangle 6.png" class="rounded-top">
+                                <div>
+                                    <h5>Rice and Stocked Stew</h5>
+                                    <p>Today's special</p>
+                                    <h5>N3000</h5>
+                                    <button type="button" class="btn btn-success btn-sm mt-2">Add to cart</button>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-lg-4 col-md-4">
-                        <div class="card p-2">
-                            <img src="img/Rectangle 10.png" class="rounded-top">
-                            <div>
-                                <h5>Slim Pasta and Curry</h5>
-                                <p>Today's special</p>
-                                <h5>N2,500</h5>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-4">
-                        <div class="card p-2">
-                            <img src="img/Rectangle 11.png" class="rounded-top">
-                            <div>
-                                <h5>Jollof Spaghetti</h5>
-                                <p>Today's special</p>
-                                <h5>N2,500</h5>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="menu py-2">
-                <h3 class="text-center text-muted">Nigerian</h3>
-                <div class="row">
-                    <div class="col-lg-4 col-md-4">
-                        <div class="card p-2">
-                            <img src="img/Rectangle 7.png" class="rounded-top">
-                            <div>
-                                <h5>Green Soup and Swallow</h5>
-                                <p>Today's special</p>
-                                <h5>N3000</h5>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-4">
-                        <div class="card p-2">
-                            <img src="img/Rectangle 6.png" class="rounded-top">
-                            <div>
-                                <h5>Rice and Stocked Stew</h5>
-                                <p>Today's special</p>
-                                <h5>N3000</h5>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-4">
-                        <div class="card p-2">
-                            <img src="img/Rectangle 8.png" class="rounded-top">
-                            <div>
-                                <h5>Special Jollof</h5>
-                                <p>Today's special</p>
-                                <h5>N2,500</h5>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="menu py-2">
-                <h3 class="text-center text-muted">Chinese</h3>
-                <div class="row pb-5">
-                    <div class="col-lg-4 col-md-4">
-                        <div class="card p-2">
-                            <img src="img/Rectangle 12.png" class="rounded-top">
-                            <div>
-                                <h5>Milk Rice and Chilli</h5>
-                                <p>Today's special</p>
-                                <h5>N4,000</h5>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-4">
-                        <div class="card p-2">
-                            <img src="img/Rectangle 13.png" class="rounded-top">
-                            <div>
-                                <h5>Rice and Clear Soup</h5>
-                                <p>Today's special</p>
-                                <h5>N4,000</h5>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-4">
-                        <div class="card p-2">
-                            <img src="img/Rectangle 14.png" class="rounded-top">
-                            <div>
-                                <h5>Rice Soup and Green</h5>
-                                <p>Today's special</p>
-                                <h5>N4,000</h5>
+                        <div class="col-lg-4 col-md-4 my-lg-0 my-md-0 my-1">
+                            <div class="card p-2">
+                                <img src="img/Rectangle 8.png" class="rounded-top">
+                                <div>
+                                    <h5>Special Jollof</h5>
+                                    <p>Today's special</p>
+                                    <h5>N2,500</h5>
+                                    <button type="button" class="btn btn-success btn-sm mt-2">Add to cart</button>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="view-btn">
-                    <a href="menu.html"><button type="button" class="btn btn-success btn-lg mb-3">View More</button></a>
-                </div>
-            </div>
-        </div>
-
-        <div class="card text-center">
-            <div class="card-header">
-                <ul class="nav nav-tabs card-header-tabs">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="true" disabled>Contact</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-muted" href="./contact.html">More Details</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="card-body">
-                <h2 class="card-title text-success pb-5">Visit Us</h2>
-                <div class="row row-cols-1 row-cols-md-4 g-4">
-                    <div class="col">
-                        <div class=" h-100">
-                            <div class="card-body">
-                                <h5 class="card-title">Address</h5>
-                                <small class="text-muted">20 Ikot Ansa Crescent, Calabar</small>
+                <div class="menu py-2">
+                    <h3 class="text-center text-muted">Chinese</h3>
+                    <div class="row pb-5">
+                        <div class="col-lg-4 col-md-4 my-lg-0 my-md-0 my-1">
+                            <div class="card p-2">
+                                <img src="img/Rectangle 12.png" class="rounded-top">
+                                <div>
+                                    <h5>Milk Rice and Chilli</h5>
+                                    <p>Today's special</p>
+                                    <h5>N4,000</h5>
+                                    <button type="button" class="btn btn-success btn-sm mt-2">Add to cart</button>
+                                </div>
+                            </div>
+                        </div>
+        
+                        <div class="col-lg-4 col-md-4 my-lg-0 my-md-0 my-1">
+                            <div class="card p-2">
+                                <img src="img/Rectangle 13.png" class="rounded-top">
+                                <div>
+                                    <h5>Rice and Clear Soup</h5>
+                                    <p>Today's special</p>
+                                    <h5>N4,000</h5>
+                                    <button type="button" class="btn btn-success btn-sm mt-2">Add to cart</button>
+                                </div>
+                            </div>
+                        </div>
+        
+                        <div class="col-lg-4 col-md-4 my-lg-0 my-md-0 my-1">
+                            <div class="card p-2">
+                                <img src="img/Rectangle 14.png" class="rounded-top">
+                                <div>
+                                    <h5>Rice Soup and Green</h5>
+                                    <p>Today's special</p>
+                                    <h5>N4,000</h5>
+                                    <button type="button" class="btn btn-success btn-sm mt-2">Add to cart</button>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col">
-                        <div class="h-100">
-                            <div class="card-body">
-                                <h5 class="card-title">Phone Number</h5>
-                                <small class="text-muted">0803 456 7890</small>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="h-100">
-                            <div class="card-body">
-                                <h5 class="card-title">Email</h5>
-                                <small class="text-muted">lacarte@email.com</small>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="h-100">
-                            <div class="card-body">
-                                <h5 class="card-title">Opening Time</h5>
-                                <small class="text-muted">Monday - Friday: 12pm - 12am</small> <br>
-                                <small class="text-muted">Saturday - Sunday: 1pm - 2am</small>
-                            </div>
-                        </div>
-                    </div>
+                        <a href="menu.html"><button type="button" class="btn btn-lg col-12 mb-3 fw-semibold bg-success text-white">View More</button></a>
                 </div>
             </div>
         </div>
-
-        <div id="our-chefs" class="py-5 bg-success">
-            <div>
-                <h2 class="text-center mb-3 text-white text-uppercase">Meet Our Chefs</h2>
+        <section id="visit-section" class="py-5 bg-warning text-center">
+                <h2 class="text-success text-center pb-0 pb-lg-5 pb-md-5">Visit Us</h2>
+                    <div class="d-block d-lg-flex d-md-flex">
+                        <div class="col-lg-6">
+                            <div class="ms-5 fs-5 mt-5">
+                                <div>
+                                    <div>
+                                        <div>
+                                            <h5>Address</h5>
+                                            <p class="text-muted">20 Ikot Ansa Crescent, Calabar</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div>
+                                        <div>
+                                            <h5>Phone Number</h5>
+                                            <p class="text-muted">0803 456 7890</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div>
+                                        <div>
+                                            <h5 class="card-title">Email</h5>
+                                            <p class="text-muted">lacarte@email.com</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div>
+                                        <div>
+                                            <h5>Opening Time</h5>
+                                            <p class="text-muted">Monday - Friday: 12pm - 12am</p>
+                                            <p class="text-muted">Saturday - Sunday: 1pm - 2am</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-5 mx-2">
+                            <img class="img-fluid" src="img/map.png" alt="">
+                        </div>
+                    </div>
+        </section>
+        <div id="about-us" class="row py-5" style="width: 100%;">
+            <h2 class="text-center mb-3 text-success">About Us</h2>
+            <div class="col-lg-6 mt-5 ">
+                <p class="text-start mb-5 fs-4 ps-5"> La Carte is renowed international restuarant. Our services are one of
+                    a kind. Our
+                    range of meals is very wide and you will be statisfied always. You get to eat in quiet, private and
+                    serene atmosphere.</p>
+                <p class="text-start mb-5 fs-4 ps-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. At excepturi
+                    odio error dolor, consequatur eaque nam quos veritatis et? Esse?</p>
             </div>
-            <div class="row row-cols-1 row-cols-md-3 g-4">
-                <div class="col">
-                    <div class="card text-center">
+            <div class="col-lg-4 mx-2">
+                <img class="img-fluid" src="img/Rectangle 7 (1).png" alt="" style="width: 100%;">
+            </div>
+        </div>
+        <div id="our-chefs" class="bg-success" style="width: 100%;">
+            <h2 class="text-center pt-5 text-white">Meet Our Chefs</h2>
+            <div class="d-flex justify-content-center gap-5 flex-wrap py-5 ">
+                <div class="col-lg-3">
+                    <div class="card text-center my-lg-0 my-md-0 my-2">
                         <img src="img/Rectangle 64.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Dave Lopez, 33</h5>
-                            <p class="card-text">Culinary School, Berlin</p>
+                            <em class="card-text">Culinary School, Berlin</em>
                         </div>
                     </div>
                 </div>
-                <div class="col">
-                    <div class="card text-center">
+                <div class="col-lg-3 ">
+                    <div class="card text-center my-lg-0 my-md-0 my-2">
                         <img src="img/Rectangle 65.png" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Femi Adeshina, 28</h5>
@@ -288,9 +294,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="col">
-                    <div class="card text-center">
-                        <img src="img/Rectangle 66.png" class="card-img-top" alt="...">
+                <div class="col-lg-3">
+                    <div class="card text-center my-lg-0 my-md-0 my-2">
+                        <img src="img/Rectangle 66.png" class="card-img-top " alt="...">
                         <div class="card-body">
                             <h5 class="card-title">John Lee, 31</h5>
                             <p class="card-text">Arts of Cook, Beijing</p>
@@ -299,36 +305,55 @@
                 </div>
             </div>
         </div>
-
-</body>
-<!-- <footer class="bg-dark min-vh-100">
-    <div class="left">
-        <nav class="pt-3 navbar navbar-expand-lg navbar-expand-md auto-hiding-navbar bg-transparent col-lg-4">
-            <div class="container">
-                <a href="./index.html" class="navbar-brand">
-                    <img src="img/Group (1).png" alt="company logo" class="fs-1 text-white"> <span
-                        class="text-white">La Carte</span>
-                </a>
-    
-                <div class="navbar-collapse">
-                    <ul class="navbar-nav ms-auto mx-5">
-                        <li class="nav-item mx-3"><a class="nav-link fs-4 text-white" aria-current="page" href="./index.html">Home</a>
-                        </li>
-                        <li class="nav-item mx-3"><a class="nav-link fs-4 text-white" href="./menu.html">Menu</a>
-                        </li>
-                        <li class="nav-item mx-3"><a class="nav-link fs-4 text-white" href="./about.html">About</a>
-                        </li>
-                        <li class="nav-item mx-3"><a class="nav-link fs-4 text-white" href="./contact.html">Contact</a></li>
-                    </ul>
+    </main>
+    <footer class="bg-dark min-vh-80">
+        <div class="container py-3 py-lg-5 py-md-5">
+            <div class="row text-light">
+                <div class="col-lg-4 col-md-4 col-12 pt-lg-0 pt-3">
+                    <a class="navbar-brand" href="./index.html">
+                        <img src="img/Group (1).png" alt="company logo" class="fs-1 text-white"> <span
+                            class="text-white text-uppercasev fw-bold fs-3">La Carte</span>
+                    </a>
+                    <p class="text-light pt-4"><span class="fs-5">&copy;</span> 2021 LaCarte</p>
                 </div>
-    
+                <div class="col-lg-8 col-md-8 col-12 pt-lg-0 pt-3">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-4 col-12 pt-4">
+                            <h5 class="pb-2 fs-6">Webpage</h5>
+                            <p><a href="index.html" class="text-decoration-none link-light"
+                                    style="font-size: 14px;">Home</a></p>
+                            <p><a href="visit.html" class="text-decoration-none link-light" style="font-size: 14px;">Visit Us</a>
+                            </p>
+                            <p><a href="about.html" class="text-decoration-none link-light"
+                                    style="font-size: 14px;">About Us</a></p>
+                            <p><a href="contact.html" class="text-decoration-none link-light"
+                                    style="font-size: 14px;">Contact Us</a></p>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-12 pt-4">
+                            <h5 class="pb-2 fs-6">Menu</h5>
+                            <p><a href="menu.html" class="text-decoration-none link-light"
+                                    style="font-size: 14px;">Breakfast</a></p>
+                            <p><a href="menu.html" class="text-decoration-none link-light"
+                                    style="font-size: 14px;">Pasta</a></p>
+                            <p><a href="menu.html" class="text-decoration-none link-light"
+                                    style="font-size: 14px;">Nigerian</a></p>
+                            <p><a href="menu.html" class="text-decoration-none link-light"
+                                    style="font-size: 14px;">Chinese</a></p>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-12 pt-4">
+                            <h5 class="pb-2 fs-6">Support</h5>
+                            <p><a href="contact.html" class="text-decoration-none link-light" style="font-size: 14px;">Help
+                                    Center</a></p>
+                            <p><a href="#" class="text-decoration-none link-light" style="font-size: 14px;">Privacy</a></p>
+                            <p><a href="#" class="text-decoration-none link-light" style="font-size: 14px;">Terms and
+                                    Conditions</a></p>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </nav>
-    </div>
-</footer> -->
-</div>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
-crossorigin="anonymous"></script>
+        </div>
+    </footer>
+<script src="js/bootstrap.min.js"></script>
+</body>
 
 </html>

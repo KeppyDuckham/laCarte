@@ -6,101 +6,137 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact | La Carte</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
-        <nav class="navbar navbar-expand-lg bg-warning  sticky-sm-top">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-expand-md bg-warning sticky-sm-top">
             <div class="container">
                 <a class="navbar-brand" href="./index.html">
                     <img src="img/Group (1).png" alt="company logo" class="fs-1 text-white"> <span
-                        class="text-white text-uppercase">La Carte</span>
+                        class="text-white text-uppercasev fw-bold fs-3">La Carte</span>
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse d" id="navbarSupportedContent">
-                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
-                        <li class="nav-item">
-                            <a class="nav-link active text-white text-uppercase" aria-current="page"
-                                href="./index.html">Home</a>
+                <div class="collapse navbar-collapse navbar-expand-lg navbar-expand-md" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item mx-lg-4 mx-md-2 fw-semibold">
+                            <a class="nav-link text-white text-uppercase" aria-current="page" href="./index.html">Home</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item mx-lg-4 mx-md-2 fw-semibold">
+                            <a class="nav-link text-white text-uppercase" href="./visit.html">Visit Us</a>
+                        </li>
+                        <li class="nav-item mx-lg-4 mx-md-2 fw-semibold">
                             <a class="nav-link text-white text-uppercase" href="./about.html">About Us</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item mx-lg-4 mx-md-2 fw-semibold">
                             <a class="nav-link text-white text-uppercase" href="./contact.html">Contact us</a>
                         </li>
-                        <li class="nav-item dropdown">
-                            <!-- <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown
-                </a> -->
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
-                            </ul>
+                        <li class="ms-4">
+                            <img class="cart" src="img/bxs_cart.png" alt="">
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
-
-        <div id="visit-us" class="bg-transparent pt-5 mt-5">
-            <div class="container">
-                <h2 class="text-center">Contact Us</h2>
-                <div class="address row">
-                    <div class="py-5 text-center">
-                        <p>Address</p>
-                        <h5 class="pb-2">20 Ikot Ansa Crescent, Calabar</h5>
-
-                        <p>Phone Number</p>
-                        <h5 class="pb-2">0803 456 7890</h5>
-
-                        <p>Email</p>
-                        <h5 class="pb-2">lacarte@email.com</h5>
-
-                        <!-- <div class="col-lg-4">
-                     <img src="img/Rectangle 6 (1).png" alt=""> 
-                 </div> -->
+    </header>
+    <section class="container">
+            <div class="row d-flex pt-4 justify-content-between">
+                <div class="col-lg-6 col-md-12">
+                    <h3 class="text-success">Contact Details</h3>
+                    <p>Kindly complete the form below to make an enquiry</p>
+                    <div for="firstname" class="my-2">
+                        First Name <span class="text-danger">*</span> <input type="text" class="p-2 border border-1 d-block col-12">
+                    </div>
+                    <div for="lastname" class="my-2" >
+                        Last Name<input type="text" class="p-2 border border-1 d-block col-12">
+                    </div>
+                    <div for="email" class="my-2">
+                        Email Address<span class="text-danger">*</span> <input type="text" placeholder="lacarte@gmail.com"
+                            class="p-2 border border-1 col-lg-12 col-md-12 col-12 d-block">
+                    </div>
+                    <div for="phone" class="my-2">
+                        Phone Number<span class="text-danger">*</span> <input type="text" placeholder="09023456789"
+                            class="p-2 border border-1 col-lg-12 col-md-12 col-12 d-block">
+                    </div>
+                    <div for="address1" class="my-2">
+                        Address Line <input type="text" class="p-2 border border-1 col-lg-12 col-md-12 col-12 d-block">
+                    </div>
+                    <div class="my-4">
+                        Type your message here...
+                        <textarea class="form-control"  style="height: 260px;"></textarea>
+                    </div>
+                    <div class="pb-4 text-center"><a href="#"
+                        class="border-0 rounded-2 px-5 py-2 mt-4 fw-semibold text-decoration-none bg-success text-white">Send
+                        Message</a></div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 text-center">
+                        <h2 class="text-center text-success">Contact Info</h2>
+                            <div class="py-5 text-center">
+                                <p>Address</p>
+                                <h5 class="pb-2">20 Ikot Ansa Crescent, Calabar</h5>
+                                <p>Phone Number</p>
+                                <h5 class="pb-2">0803 456 7890</h5>
+                                <p>Email</p>
+                                <h5 class="pb-2">lacarte@email.com</h5>
+                                <img src="img/contact.jpg" class="img-fluid" alt="">
+                            </div>
+                    </div>
+                </div>
+    </section>
+    
+<footer class="bg-dark min-vh-80">
+    <div class="container py-3 py-lg-5 py-md-5">
+        <div class="row text-light">
+            <div class="col-lg-4 col-md-4 col-12 pt-lg-0 pt-3">
+                <a class="navbar-brand" href="./index.html">
+                    <img src="img/Group (1).png" alt="company logo" class="fs-1 text-white"> <span
+                        class="text-white text-uppercasev fw-bold fs-3">La Carte</span>
+                </a>
+                <p class="text-light pt-4"><span class="fs-5">&copy;</span> 2021 LaCarte</p>
+            </div>
+            <div class="col-lg-8 col-md-8 col-12 pt-lg-0 pt-3">
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-12 pt-4">
+                        <h5 class="pb-2 fs-6">Webpage</h5>
+                        <p><a href="index.html" class="text-decoration-none link-light"
+                                style="font-size: 14px;">Home</a></p>
+                        <p><a href="#visit-section" class="text-decoration-none link-light"
+                                style="font-size: 14px;">Visit Us</a>
+                        </p>
+                        <p><a href="about.html" class="text-decoration-none link-light" style="font-size: 14px;">About
+                                Us</a></p>
+                        <p><a href="contact.html" class="text-decoration-none link-light"
+                                style="font-size: 14px;">Contact Us</a></p>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-12 pt-4">
+                        <h5 class="pb-2 fs-6">Menu</h5>
+                        <p><a href="menu.html" class="text-decoration-none link-light"
+                                style="font-size: 14px;">Breakfast</a></p>
+                        <p><a href="menu.html" class="text-decoration-none link-light"
+                                style="font-size: 14px;">Pasta</a></p>
+                        <p><a href="menu.html" class="text-decoration-none link-light"
+                                style="font-size: 14px;">Nigerian</a></p>
+                        <p><a href="menu.html" class="text-decoration-none link-light"
+                                style="font-size: 14px;">Chinese</a></p>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-12 pt-4">
+                        <h5 class="pb-2 fs-6">Support</h5>
+                        <p><a href="#" class="text-decoration-none link-light" style="font-size: 14px;">Help
+                                Center</a></p>
+                        <p><a href="#" class="text-decoration-none link-light" style="font-size: 14px;">Privacy</a></p>
+                        <p><a href="#" class="text-decoration-none link-light" style="font-size: 14px;">Terms and
+                                Conditions</a></p>
                     </div>
                 </div>
             </div>
-
-</body>
-<!-- <footer class="bg-warning">
-    <nav class="pt-3 navbar navbar-expand-lg navbar-expand-md auto-hiding-navbar bg-transparent">
-        <div class="container">
-            <a href="./index.html" class="navbar-brand">
-                <img src="img/Group (1).png" alt="company logo" class="fs-1 text-white"> <span class="text-white">La
-                    Carte</span>
-            </a>
-
-            <div class="collapse navbar-collapse">
-                <ul class="navbar-nav ms-auto mx-5">
-                    <li class="nav-item mx-3"><a class="nav-link fs-4 text-white" href="./index.html">Home</a>
-                    </li>
-                    <li class="nav-item mx-3"><a class="nav-link fs-4 text-white" href="./menu.html">Menu</a>
-                    </li>
-                    <li class="nav-item mx-3"><a class="nav-link fs-4 text-white" href="./about.html">About</a>
-                    </li>
-                    <li class="nav-item mx-3"><a class="nav-link fs-4 text-white" href="./contact.html">Contact</a></li>
-                </ul>
-            </div>
-
         </div>
-    </nav>
-</footer> -->
-</div>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
-    crossorigin="anonymous"></script>
-
+    </div>
+</footer>
+<script src="js/bootstrap.min.js"></script>
+</body>
 </html>
