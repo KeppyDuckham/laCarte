@@ -1,0 +1,43 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#hero-section  {
+    background-image: url(../img/Rectangle\ 1.png);
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#hero-section form {
+    width: 60%;
+}
+
+.nav-link:hover {
+  color: green !important;
+  transform: scale(1.1);
+    transition: .3s ease-out;
+}
+
+footer a:hover {
+  opacity: 0.8;
+}
+
+header .cart:hover {
+    transform: scale(1.2);
+    transition: .3s ease-in-out;
+}
+
+.clients img {
+  opacity: 0.8;
+}
+
+.clients img:hover {
+  opacity: 1;
+  transform: scale(1.15);
+    transition: .3s ease-in-out;
+}
+
